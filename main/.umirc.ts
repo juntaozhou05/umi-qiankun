@@ -11,15 +11,9 @@ export default defineConfig({
       routes: [
         {
           path: '/app1',
-          // component: '@/pages/app1/index',
           microApp: 'app1',
         },
       ],
-    },
-    {
-      path: '/app1',
-      // component: '@/pages/app1/index',
-      microApp: 'app1',
     },
   ],
   qiankun: {
